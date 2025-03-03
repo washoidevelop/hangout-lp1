@@ -9,10 +9,10 @@ const Footer = () => {
           <div className="mb-8 md:mb-0">
             <div className="flex items-center mb-4">
               <Heart className="text-pink-400 mr-2" size={24} />
-              <span className="text-xl font-bold">Bloom Fitness</span>
+              <span className="text-xl font-bold">遺伝子ダイエット</span>
             </div>
             <p className="text-gray-400 max-w-xs">
-              女性専用パーソナルジム。あなたの理想の体型を実現するためのサポートをします。
+              遺伝子検査付きダイエットコース。あなたの体質に合わせた最適なダイエット方法で理想のカラダへ導きます。
             </p>
             <div className="flex mt-4 space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition">
@@ -45,7 +45,7 @@ const Footer = () => {
               <ul className="space-y-2 text-gray-400">
                 <li className="flex items-start">
                   <MapPin className="mr-2 mt-1 flex-shrink-0" size={16} />
-                  <span>東京都渋谷区〇〇町1-2-3</span>
+                  <span>東京都渋谷区神宮前6-12-10</span>
                 </li>
                 <li className="flex items-start">
                   <MapPin className="mr-2 mt-1 flex-shrink-0" size={16} />
@@ -62,7 +62,7 @@ const Footer = () => {
                 </li>
                 <li className="flex items-start">
                   <Mail className="mr-2 mt-1 flex-shrink-0" size={16} />
-                  <span>info@bloomfitness.jp</span>
+                  <span>info@mydensi.com</span>
                 </li>
               </ul>
             </div>
@@ -70,7 +70,7 @@ const Footer = () => {
         </div>
         <div className="border-t border-gray-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            &copy; 2025 Bloom Fitness. All rights reserved.
+            &copy; 2025 株式会社レイクビー. All rights reserved.
           </p>
           <div className="flex space-x-6">
             <a href="#" className="text-gray-400 hover:text-white text-sm transition">プライバシーポリシー</a>

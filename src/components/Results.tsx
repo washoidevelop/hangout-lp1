@@ -5,10 +5,10 @@ const Results = () => {
     <section id="results" className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
-          理想の体型へと導く確かな実績
+          あなたの体質タイプを8つに分類
         </h2>
         <p className="text-xl text-center text-gray-600 mb-16">
-          多くの女性がわずか2ヶ月で劇的な変化を体感しています。
+          遺伝子検査の結果から、あなたに最適な食事・運動法をご提案します。
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -29,9 +29,9 @@ const Results = () => {
               </div>
             </div>
             <div className="p-6">
-              <h3 className="font-semibold text-lg mb-2">Aさん (32歳)</h3>
+              <h3 className="font-semibold text-lg mb-2">リンゴ型</h3>
               <p className="text-gray-600">
-                「産後太りで悩んでいましたが、2ヶ月で-8kg達成！自分に自信が持てるようになりました。」
+                「糖質の代謝が苦手で内臓脂肪が蓄積しやすいタイプ。お腹ぽっこりになりやすく、糖質OFFダイエットが効果的です。」
               </p>
             </div>
           </div>
@@ -53,9 +53,9 @@ const Results = () => {
               </div>
             </div>
             <div className="p-6">
-              <h3 className="font-semibold text-lg mb-2">Bさん (28歳)</h3>
+              <h3 className="font-semibold text-lg mb-2">洋ナシ型</h3>
               <p className="text-gray-600">
-                「ダイエットに何度も失敗してきましたが、ここでは無理なく続けられ、理想の体型になれました！」
+                「脂質の代謝が苦手で皮下脂肪が蓄積しやすいタイプ。下半身太りになりやすく、低脂質ダイエットと体を温める運動が効果的です。」
               </p>
             </div>
           </div>
@@ -77,9 +77,9 @@ const Results = () => {
               </div>
             </div>
             <div className="p-6">
-              <h3 className="font-semibold text-lg mb-2">Cさん (41歳)</h3>
+              <h3 className="font-semibold text-lg mb-2">マスカット型</h3>
               <p className="text-gray-600">
-                「年齢とともに代謝が落ちて諦めていましたが、正しい方法で若々しい体を取り戻せました。」
+                「糖質、脂質、タンパク質の全てにおいてリスクがないバランスタイプ。バランスの良い食事と適度な運動で理想の体型を維持できます。」
               </p>
             </div>
           </div>

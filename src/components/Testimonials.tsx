@@ -5,7 +5,7 @@ const Testimonials = () => {
     <section id="testimonials" className="py-16 bg-pink-50">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
-          先輩たちの声をご紹介
+          遺伝子検査ダイエットの体験者の声
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-white p-8 rounded-lg shadow-md">
@@ -16,7 +16,7 @@ const Testimonials = () => {
                 className="w-16 h-16 rounded-full object-cover mr-4"
               />
               <div>
-                <h3 className="font-semibold">田中さん (35歳・会社員)</h3>
+                <h3 className="font-semibold">高山さん (48歳・営業部課長)</h3>
                 <div className="flex text-yellow-400">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
@@ -36,9 +36,9 @@ const Testimonials = () => {
                 </div>
               </div>
             </div>
-            <p className="text-gray-600">
-              「女性専用というのが決め手でした。トレーナーさんも女性なので、体の悩みも相談しやすく、的確なアドバイスをもらえます。食事指導も無理なく続けられるプランで、ストレスなく理想の体型に近づけています。」
-            </p>
+              <p className="text-gray-600">
+                「年齢とともに体型維持が難しくなり悩んでいました。遺伝子検査でリンゴ型と判明し、糖質制限を中心とした食事改善を行ったところ、2ヶ月で内臓脂肪が大幅に減少！健康診断の数値も改善して、仕事のパフォーマンスも上がりました。」
+              </p>
           </div>
           <div className="bg-white p-8 rounded-lg shadow-md">
             <div className="flex items-center mb-4">
@@ -48,7 +48,7 @@ const Testimonials = () => {
                 className="w-16 h-16 rounded-full object-cover mr-4"
               />
               <div>
-                <h3 className="font-semibold">佐藤さん (29歳・デザイナー)</h3>
+                <h3 className="font-semibold">佐藤さん (42歳・主婦)</h3>
                 <div className="flex text-yellow-400">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
@@ -68,9 +68,9 @@ const Testimonials = () => {
                 </div>
               </div>
             </div>
-            <p className="text-gray-600">
-              「デスクワークで運動不足だったのですが、ここに通い始めてから体が軽くなりました。アプリでトレーナーさんといつでも連絡が取れるので、自宅でのトレーニングも安心して続けられます。おしゃれな空間も気に入っています。」
-            </p>
+              <p className="text-gray-600">
+                「何度もダイエットに挑戦しては失敗を繰り返していました。遺伝子検査で洋ナシ型と分かり、低脂質の食事と温活を意識したところ、特に下半身の変化を実感！体質に合ったアプローチで、無理なく続けられています。」
+              </p>
           </div>
           <div className="bg-white p-8 rounded-lg shadow-md">
             <div className="flex items-center mb-4">
@@ -80,7 +80,7 @@ const Testimonials = () => {
                 className="w-16 h-16 rounded-full object-cover mr-4"
               />
               <div>
-                <h3 className="font-semibold">鈴木さん (42歳・主婦)</h3>
+                <h3 className="font-semibold">鈴木さん (35歳・IT企業勤務)</h3>
                 <div className="flex text-yellow-400">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
@@ -100,9 +100,9 @@ const Testimonials = () => {
                 </div>
               </div>
             </div>
-            <p className="text-gray-600">
-              「年齢とともに痩せにくくなっていましたが、ここでは年齢に合わせたトレーニングを提案してくれます。手ぶらで通えるのも助かっています。何より、トレーナーさんが親身になってくれるので、モチベーションが続きます。」
-            </p>
+              <p className="text-gray-600">
+                「遺伝子検査でバナナ型と判明し、タンパク質をしっかり摂るよう指導を受けました。筋トレと合わせて実践したところ、体重はあまり変わらなくても見た目が引き締まり、友人からも『痩せた？』と言われるように。科学的な根拠があると続けやすいです。」
+              </p>
           </div>
           <div className="bg-white p-8 rounded-lg shadow-md">
             <div className="flex items-center mb-4">
@@ -112,7 +112,7 @@ const Testimonials = () => {
                 className="w-16 h-16 rounded-full object-cover mr-4"
               />
               <div>
-                <h3 className="font-semibold">山田さん (31歳・看護師)</h3>
+                <h3 className="font-semibold">山田さん (39歳・看護師)</h3>
                 <div className="flex text-yellow-400">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
@@ -132,9 +132,9 @@ const Testimonials = () => {
                 </div>
               </div>
             </div>
-            <p className="text-gray-600">
-              「不規則な勤務でジムに通うのが難しかったのですが、予約の融通が利くので続けられています。体力がついて仕事のパフォーマンスも上がりました。何より、自分の体を大切にする習慣が身についたことが一番の収穫です。」
-            </p>
+              <p className="text-gray-600">
+                「不規則な勤務で食生活が乱れがちでした。遺伝子検査で自分の体質を知り、無理なく続けられる食事法を教えてもらえたのが良かったです。体質に合わせたアプローチで、短期間で効果を実感できました。何より健康的に痩せられたことが嬉しいです。」
+              </p>
           </div>
         </div>
       </div>

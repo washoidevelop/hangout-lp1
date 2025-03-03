@@ -6,17 +6,17 @@ const Pricing = () => {
     <section id="pricing" className="py-16 bg-pink-50">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
-          分かりやすい料金プラン
+          遺伝子検査付きダイエットコース
         </h2>
         <p className="text-xl text-center text-gray-600 mb-16">
-          あなたのライフスタイルに合わせて選べる、シンプルな料金体系
+          あなたの体質に合わせた最適なダイエット方法で理想のカラダへ
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <div className="bg-pink-100 p-6">
-              <h3 className="text-2xl font-bold text-center">スタンダードプラン</h3>
+              <h3 className="text-2xl font-bold text-center">ベーシックプラン</h3>
               <div className="text-center mt-4">
-                <span className="text-4xl font-bold">¥98,000</span>
+                <span className="text-4xl font-bold">¥149,800</span>
                 <span className="text-gray-600">/2ヶ月</span>
               </div>
             </div>
@@ -24,19 +24,19 @@ const Pricing = () => {
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <CheckCircle className="text-pink-500 mr-3 mt-1 flex-shrink-0" size={20} />
+                  <span>遺伝子検査キット（3遺伝子解析）</span>
+                </li>
+                <li className="flex items-start">
+                  <CheckCircle className="text-pink-500 mr-3 mt-1 flex-shrink-0" size={20} />
                   <span>週2回のパーソナルトレーニング</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="text-pink-500 mr-3 mt-1 flex-shrink-0" size={20} />
-                  <span>食事指導・アドバイス</span>
+                  <span>体質に合わせた食事指導</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="text-pink-500 mr-3 mt-1 flex-shrink-0" size={20} />
-                  <span>専用アプリでのサポート</span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="text-pink-500 mr-3 mt-1 flex-shrink-0" size={20} />
-                  <span>体組成測定・分析</span>
+                  <span>体組成測定・分析（月2回）</span>
                 </li>
               </ul>
               <a href="#contact" className="block text-center bg-pink-500 hover:bg-pink-600 text-white font-semibold py-3 px-6 rounded-lg mt-8 transition duration-300">
@@ -51,12 +51,16 @@ const Pricing = () => {
               </div>
               <h3 className="text-2xl font-bold text-center">プレミアムプラン</h3>
               <div className="text-center mt-4">
-                <span className="text-4xl font-bold">¥128,000</span>
+                <span className="text-4xl font-bold">¥189,200</span>
                 <span className="text-white opacity-80">/2ヶ月</span>
               </div>
             </div>
             <div className="p-6">
               <ul className="space-y-4">
+                <li className="flex items-start">
+                  <CheckCircle className="text-pink-500 mr-3 mt-1 flex-shrink-0" size={20} />
+                  <span>遺伝子検査キット（3遺伝子解析）</span>
+                </li>
                 <li className="flex items-start">
                   <CheckCircle className="text-pink-500 mr-3 mt-1 flex-shrink-0" size={20} />
                   <span>週3回のパーソナルトレーニング</span>
@@ -67,15 +71,11 @@ const Pricing = () => {
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="text-pink-500 mr-3 mt-1 flex-shrink-0" size={20} />
-                  <span>専用アプリでの24時間サポート</span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="text-pink-500 mr-3 mt-1 flex-shrink-0" size={20} />
                   <span>体組成測定・分析（毎週）</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="text-pink-500 mr-3 mt-1 flex-shrink-0" size={20} />
-                  <span>オリジナルプロテイン1つプレゼント</span>
+                  <span>オリジナルサプリメント1つプレゼント</span>
                 </li>
               </ul>
               <a href="#contact" className="block text-center bg-pink-500 hover:bg-pink-600 text-white font-semibold py-3 px-6 rounded-lg mt-8 transition duration-300 shadow-md">
@@ -87,7 +87,7 @@ const Pricing = () => {
             <div className="bg-pink-100 p-6">
               <h3 className="text-2xl font-bold text-center">ライトプラン</h3>
               <div className="text-center mt-4">
-                <span className="text-4xl font-bold">¥68,000</span>
+                <span className="text-4xl font-bold">¥119,800</span>
                 <span className="text-gray-600">/2ヶ月</span>
               </div>
             </div>
@@ -95,15 +95,15 @@ const Pricing = () => {
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <CheckCircle className="text-pink-500 mr-3 mt-1 flex-shrink-0" size={20} />
+                  <span>遺伝子検査キット（3遺伝子解析）</span>
+                </li>
+                <li className="flex items-start">
+                  <CheckCircle className="text-pink-500 mr-3 mt-1 flex-shrink-0" size={20} />
                   <span>週1回のパーソナルトレーニング</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="text-pink-500 mr-3 mt-1 flex-shrink-0" size={20} />
                   <span>基本的な食事アドバイス</span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="text-pink-500 mr-3 mt-1 flex-shrink-0" size={20} />
-                  <span>専用アプリでのサポート（平日）</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="text-pink-500 mr-3 mt-1 flex-shrink-0" size={20} />
@@ -122,7 +122,7 @@ const Pricing = () => {
             今月中にご入会の方は<span className="font-bold text-pink-500">入会金（通常¥30,000）が無料</span>になります！
           </p>
           <p className="text-center text-gray-600">
-            さらに、友達紹介で<span className="font-bold text-pink-500">お二人とも¥10,000オフ</span>のスペシャル特典も実施中！
+            さらに、友達紹介で<span className="font-bold text-pink-500">お二人とも¥15,000オフ</span>のスペシャル特典も実施中！
           </p>
         </div>
       </div>

@@ -5,10 +5,10 @@ const Contact = () => {
     <section id="contact" className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
-          まずは気軽に無料カウンセリング
+          遺伝子検査ダイエットの無料カウンセリング
         </h2>
         <p className="text-xl text-center text-gray-600 mb-16">
-          簡単な予約フォームで1分で申し込み完了！
+          あなたの体質や目標に合わせたプランをご提案します
         </p>
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0 md:pr-10">

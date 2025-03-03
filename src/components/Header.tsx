@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center">
           <Heart className="text-pink-500 mr-2" size={24} />
-          <span className="text-xl font-bold text-pink-600">Bloom Fitness</span>
+          <span className="text-xl font-bold text-pink-600">遺伝子ダイエット</span>
         </div>
         <nav className="hidden md:flex space-x-8">
           <a href="#about" className="text-gray-600 hover:text-pink-500 transition">特徴</a>

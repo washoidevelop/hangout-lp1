@@ -6,11 +6,11 @@ const Hero = () => {
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 mb-10 md:mb-0 md:pr-10">
           <h1 className="text-3xl md:text-5xl font-bold leading-tight text-gray-800 mb-4">
-            理想の私へ、<br />
-            <span className="text-pink-600">2ヶ月で変わる</span>パーソナルジム
+            話題沸騰中！<br />
+            <span className="text-pink-600">遺伝子検査付き</span>ダイエットコース
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8">
-            女性トレーナーと叶える理想のボディライン
+            あなたの体質に合わせた最適なダイエット方法で理想のカラダへ
           </p>
           <a href="#contact" className="inline-block bg-pink-500 hover:bg-pink-600 text-white text-lg px-8 py-4 rounded-full transition duration-300 shadow-lg transform hover:-translate-y-1">
             無料カウンセリングを申し込む
