@@ -1,5 +1,3 @@
-import React from 'react';
-
 const CTA = () => {
   return (
     <section className="py-16 bg-gradient-to-r from-pink-500 to-purple-500 text-white">

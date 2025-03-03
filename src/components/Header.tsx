@@ -1,4 +1,3 @@
-import React from 'react';
 import { Heart } from 'lucide-react';
 
 const Header = () => {
@@ -6,7 +5,7 @@ const Header = () => {
     <header className="bg-white shadow-sm fixed w-full z-10">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center">
-          <Heart className="text-pink-500 mr-2" size={24} />
+          {/* <Heart className="text-pink-500 mr-2" size={24} /> */}
           <span className="text-xl font-bold text-pink-600">遺伝子ダイエット</span>
         </div>
         <nav className="hidden md:flex space-x-8">

@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Contact = () => {
   return (
     <section id="contact" className="py-16 bg-white">
@@ -13,7 +11,7 @@ const Contact = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0 md:pr-10">
             <img 
-              src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+              src="https://hangout-diet.com/wp-content/uploads/slider/11_s.jpeg" 
               alt="女性がトレーナーとリラックスしてカウンセリングを受けている様子" 
               className="rounded-lg shadow-lg"
             />

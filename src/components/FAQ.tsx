@@ -1,5 +1,3 @@
-import React from 'react';
-
 const FAQ = () => {
   return (
     <section id="faq" className="py-16 bg-pink-50">

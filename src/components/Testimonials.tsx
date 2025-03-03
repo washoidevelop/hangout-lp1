@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Testimonials = () => {
   return (
     <section id="testimonials" className="py-16 bg-pink-50">
@@ -10,11 +8,11 @@ const Testimonials = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-white p-8 rounded-lg shadow-md">
             <div className="flex items-center mb-4">
-              <img 
+              {/* <img 
                 src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" 
                 alt="お客様の写真" 
                 className="w-16 h-16 rounded-full object-cover mr-4"
-              />
+              /> */}
               <div>
                 <h3 className="font-semibold">高山さん (48歳・営業部課長)</h3>
                 <div className="flex text-yellow-400">
@@ -42,11 +40,11 @@ const Testimonials = () => {
           </div>
           <div className="bg-white p-8 rounded-lg shadow-md">
             <div className="flex items-center mb-4">
-              <img 
+              {/* <img 
                 src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" 
                 alt="お客様の写真" 
                 className="w-16 h-16 rounded-full object-cover mr-4"
-              />
+              /> */}
               <div>
                 <h3 className="font-semibold">佐藤さん (42歳・主婦)</h3>
                 <div className="flex text-yellow-400">
@@ -74,11 +72,11 @@ const Testimonials = () => {
           </div>
           <div className="bg-white p-8 rounded-lg shadow-md">
             <div className="flex items-center mb-4">
-              <img 
+              {/* <img 
                 src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" 
                 alt="お客様の写真" 
                 className="w-16 h-16 rounded-full object-cover mr-4"
-              />
+              /> */}
               <div>
                 <h3 className="font-semibold">鈴木さん (35歳・IT企業勤務)</h3>
                 <div className="flex text-yellow-400">
@@ -106,11 +104,11 @@ const Testimonials = () => {
           </div>
           <div className="bg-white p-8 rounded-lg shadow-md">
             <div className="flex items-center mb-4">
-              <img 
+              {/* <img 
                 src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" 
                 alt="お客様の写真" 
                 className="w-16 h-16 rounded-full object-cover mr-4"
-              />
+              /> */}
               <div>
                 <h3 className="font-semibold">山田さん (39歳・看護師)</h3>
                 <div className="flex text-yellow-400">

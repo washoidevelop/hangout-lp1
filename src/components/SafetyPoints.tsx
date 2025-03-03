@@ -1,4 +1,3 @@
-import React from 'react';
 import { Heart } from 'lucide-react';
 
 const SafetyPoints = () => {
@@ -40,7 +39,7 @@ const SafetyPoints = () => {
           </div>
           <div className="md:w-1/2 order-1 md:order-2">
             <img 
-              src="https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+              src="https://images.unsplash.com/photo-1578496479273-878c39a9d5e0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8JUU5JTgxJUJBJUU0JUJDJTlEJUU1JUFEJTkwfGVufDB8MHwwfHx8Mg%3D%3D" 
               alt="女性専用の綺麗な個室トレーニングルーム" 
               className="rounded-lg shadow-lg"
             />
